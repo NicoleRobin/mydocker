@@ -1,18 +1,9 @@
 package main
 
 import (
-	"github.com/urfave/cli"
-)
-
-var (
-	initCommand = cli.Command{}
-	runCommand  = cli.Command{}
+	"github.com/nicolerobin/mydocker/cmd"
 )
 
 func main() {
-	app := cli.NewApp()
-	app.Commands = []cli.Command{
-		initCommand,
-		runCommand,
-	}
+	cmd.Execute()
 }
