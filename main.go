@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/nicolerobin/mydocker/cmd"
+	"github.com/nicolerobin/mydocker/cmd/docker"
 )
 
 func main() {
-	cmd.Execute()
+	docker.Execute()
 }
